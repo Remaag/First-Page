@@ -1,0 +1,80 @@
+body {
+	background-color:#181C1F;										/* Cor da tela de fundo cinza*/
+	margin-top: 60px;
+	margin-bottom: 20px;	
+	margin-left: 50px;
+	margin-right: 50px;						
+}
+
+h1 {
+	color:#7D5D2A;													/* cor do H1 marrom*/
+	font-size:40px;												   	/*tamanho da fonte por 40 pixies*/
+	text-align:center;
+}
+
+h2 {
+	color:#B5BBA7;													/* cor do H2 marrom mais claro*/
+	font-size:30px;													/*tamanho da fonte por 30 pixies*/
+}
+
+h3 {
+	color:#bea26c;													/* cor do h3 dourado*/
+	font-size:50px;													/*tamanho da fonte do h3 em 50 pixeis*/
+}
+
+h4 {
+	color:#8d744d;													/* cor do H4 marrom mais claro*/
+	font-size:30px;													/*tamanho da fonte por 30 pixies*/
+}
+
+p {
+	color:#E9DFD6;													/*cor dos paragrafos preto*/
+	font-size:25px;													/*tamanho da fonte por pixies*/
+	font-family:sans-serif;											/*fonte original, porém sem serifa*/
+	text-align:center;												/*alinhamento do texto*/
+}
+
+.pSkill {
+	color:#E9DFD6;													/*cor dos paragrafos preto*/
+	font-size:25px;													/*tamanho da fonte por pixies*/
+	font-family:sans-serif;											/*fonte original, porém sem serifa*/
+	text-align:flex-start;
+}
+
+text {
+	color:#bebb9f;													/*cor dos paragrafos preto*/
+	font-size:25px;													/*tamanho da fonte por pixies*/
+	align-self: flex-start;
+	order: -1;
+
+}
+
+
+main {
+	color:#E9DFD6;													/*cor dos paragrafos preto*/
+	font-size:25px;													/*tamanho da fonte por 20 pixies*/
+	margin-right:60px;												/*margem direita de 60 pixies*/
+	margin-left:60px;												/*margem esquerda de 60 pixies*/
+}
+
+footer {					
+	background-color:#121518;											/*cor do fundo do rodapé*/	
+	text-align:center;													/*alinhamento do texto*/
+}
+
+div{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+/* class para as imagens das skills */
+.ImgSkill {
+	display:block;
+	
+	max-width: 100%;
+    float: left;
+    order: -1;
+}
